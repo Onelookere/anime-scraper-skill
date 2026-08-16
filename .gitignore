@@ -1,0 +1,5 @@
+# API 缓存和运行时数据随 skill 本地迁移，但不得提交
+cache/
+.runtime/
+__pycache__/
+*.pyc

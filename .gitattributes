@@ -1,0 +1,2 @@
+# 仓库内统一存 LF，避免 Windows/Linux 协作时换行符互相污染
+* text=auto eol=lf

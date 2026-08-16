@@ -1,0 +1,30 @@
+{
+  "paths": {
+    "source_root": ""
+  },
+  "artwork": {
+    "multimodal_review": false,
+    "artwork_cache": false,
+    "tmdb_workers": 6,
+    "ffmpeg_workers": 3
+  },
+  "library": {
+    "hardlinks": {
+      "enabled": true,
+      "root": ""
+    }
+  },
+  "anidb": {
+    "http": {
+      "client": "",
+      "clientver": 1
+    }
+  },
+  "bangumi": {
+    "access_token": "",
+    "user_agent": ""
+  },
+  "tmdb": {
+    "access_token": ""
+  }
+}

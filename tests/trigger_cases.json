@@ -1,0 +1,31 @@
+{
+  "schema": "anime-scraper-trigger-cases-v1",
+  "should_trigger": [
+    {
+      "prompt": "为这套本地 BDRip 动画生成 Jellyfin NFO，并建立硬链接媒体库",
+      "reason": "明确是本地动画、NFO 与硬链接建库任务"
+    },
+    {
+      "prompt": "整理这部番剧里的 NCOP、NCED、OVA 和特典到 Specials",
+      "reason": "明确是动画特殊集识别与整理"
+    },
+    {
+      "prompt": "扫描这套 BDMV 动画，按 Bangumi 和 AniDB 生成 Kodi 通用 NFO",
+      "reason": "明确是动画片源扫描及元数据刮削"
+    }
+  ],
+  "should_not_trigger": [
+    {
+      "prompt": "电影刮削",
+      "reason": "未明确为动画或本地动画 NFO 工作流"
+    },
+    {
+      "prompt": "电视剧刮削",
+      "reason": "未明确为动画，且更接近真人电视剧元数据任务"
+    },
+    {
+      "prompt": "剧集刮削",
+      "reason": "范围过宽，未明确为动画或本地压制组片源"
+    }
+  ]
+}

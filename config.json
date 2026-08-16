@@ -1,0 +1,37 @@
+{
+  "paths": {
+    "source_root": ""
+  },
+  "library": {
+    "hardlinks": {
+      "enabled": true,
+      "root": ""
+    }
+  },
+  "artwork": {
+    "multimodal_review": false,
+    "artwork_cache": false,
+    "tmdb_workers": 6,
+    "ffmpeg_workers": 3
+  },
+  "anidb": {
+    "http": {
+      "client": "animescraper",
+      "clientver": 1
+    }
+  },
+  "bangumi": {
+    "access_token": "",
+    "user_agent": ""
+  },
+  "tmdb": {
+    "access_token": ""
+  },
+  "cache_dir": "cache",
+  "rate": {
+    "base_interval_sec": 2.0,
+    "long_interval_sec": 6.0,
+    "slow_after_sec": 30,
+    "reset_after_sec": 60
+  }
+}
